@@ -4684,7 +4684,7 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 
 .nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
 
-.navbar { background-color: #00000050; border-bottom: solid 3px #c7df89; }
+.navbar { background-color: rgba(0, 0, 0, 0.3); border-bottom: solid 3px #c7df89; }
 
 .jumbotron-custom { position: relative; background: url("/img/hero.JPG") no-repeat bottom center/cover; }
 
