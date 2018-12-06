@@ -1,0 +1,33 @@
+.jumbotron-custom {
+  position: relative;
+  background: url("/img/hero.JPG") no-repeat bottom center / cover;
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+  }
+
+  .container {
+    padding: 75px 0;
+  }
+
+  h1,
+  .lead {
+    color: #fff;
+  }
+}
+
+/* Custom button */
+.btn-primary {
+  background: #1096fc;
+  border: 0;
+
+  &:hover {
+    background: darken(#1096fc, 7%);
+  }
+}

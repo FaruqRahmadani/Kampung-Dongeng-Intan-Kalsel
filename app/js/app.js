@@ -97,6 +97,17 @@ eval("console.log(\"Hello Gulper !\");\n\n//# sourceURL=webpack:///./dist/js/_sr
 
 /***/ }),
 
+/***/ "./dist/js/_src/general.js":
+/*!*********************************!*\
+  !*** ./dist/js/_src/general.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(\".jumbotron-custom\").css({\n  height: $(window).height() + \"px\"\n});\n$(window).on(\"resize\", function () {\n  $(\".jumbotron-custom\").css({\n    height: $(window).height() + \"px\"\n  });\n});\n\n//# sourceURL=webpack:///./dist/js/_src/general.js?");
+
+/***/ }),
+
 /***/ "./dist/js/app.js":
 /*!************************!*\
   !*** ./dist/js/app.js ***!
@@ -104,7 +115,7 @@ eval("console.log(\"Hello Gulper !\");\n\n//# sourceURL=webpack:///./dist/js/_sr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("window.$ = window.jQuery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! bootstrap/dist/js/bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\n__webpack_require__(/*! ./_src/_testing */ \"./dist/js/_src/_testing.js\");\n\n//# sourceURL=webpack:///./dist/js/app.js?");
+eval("window.$ = window.jQuery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! bootstrap/dist/js/bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\n__webpack_require__(/*! ./_src/_testing */ \"./dist/js/_src/_testing.js\");\n\n__webpack_require__(/*! ./_src/general */ \"./dist/js/_src/general.js\");\n\n//# sourceURL=webpack:///./dist/js/app.js?");
 
 /***/ }),
 
