@@ -4682,7 +4682,7 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 
 .nav-item { margin: 0 25px; }
 
-.nav-item .nav-link { color: white !important; }
+.nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
 
 .navbar { background-color: #00000050; border-bottom: solid 3px #c7df89; }
 
