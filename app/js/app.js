@@ -115,7 +115,7 @@ eval("$(window).on(\"load resize\", function () {\n  $(\".jumbotron-custom\").cs
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$('.nav-link').on('click', function (e) {\n  var target = $(this).attr('href');\n  $('html, body').animate({\n    scrollTop: $(target).offset().top - 65\n  }, 800);\n  e.preventDefault();\n});\n\n//# sourceURL=webpack:///./dist/js/_src/navbar.js?");
+eval("$('.nav-link').on('click', function (e) {\n  var target = $(this).attr('href');\n  $('html, body').animate({\n    scrollTop: $(target).offset().top - ($('.navbar').height() + parseInt($('.navbar').css(\"padding-top\")) + parseInt($('.navbar').css(\"padding-bottom\")))\n  }, 1000);\n  e.preventDefault();\n});\n\n//# sourceURL=webpack:///./dist/js/_src/navbar.js?");
 
 /***/ }),
 

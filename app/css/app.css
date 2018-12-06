@@ -4686,6 +4686,10 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 
 .navbar { background-color: rgba(0, 0, 0, 0.3); border-bottom: solid 3px #c7df89; }
 
+.navbar-brand { margin: 0 25px; }
+
+.navbar-brand img { height: 50px; }
+
 .jumbotron-custom { position: relative; background: url("/img/hero.JPG") no-repeat bottom center/cover; }
 
 .jumbotron-custom:before { position: absolute; content: ''; top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.5); }
