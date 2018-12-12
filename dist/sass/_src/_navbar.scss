@@ -1,5 +1,6 @@
 .nav-item {
   margin: 0 25px;
+  transition: all .5s;
   .nav-link{
     color: white !important;
     font-weight: bold;
@@ -8,8 +9,18 @@
 }
 
 .navbar{
-  background-color: rgba(0, 0, 0, 0.30);
-  border-bottom: solid 3px rgba(199, 223, 137, 1);
+  transition: all 1s;
+  .nav-item{
+    font-size: 20px;
+    margin: 0 50px;
+    transition: all .5s;
+  }
+}
+
+.navbar-scrolled{
+  transition: all 1s;
+  background-color: rgba(0, 0, 0, 0.75);
+  // border-bottom: solid 3px rgba(199, 223, 137, 1);
 }
 
 .navbar-brand{

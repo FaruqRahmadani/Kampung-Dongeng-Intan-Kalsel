@@ -4680,11 +4680,15 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 body { font-family: "Comic Sans MS", cursive, sans-serif; }
 
-.nav-item { margin: 0 25px; }
+.nav-item { margin: 0 25px; transition: all .5s; }
 
 .nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
 
-.navbar { background-color: rgba(0, 0, 0, 0.3); border-bottom: solid 3px #c7df89; }
+.navbar { transition: all 1s; }
+
+.navbar .nav-item { font-size: 20px; margin: 0 50px; transition: all .5s; }
+
+.navbar-scrolled { transition: all 1s; background-color: rgba(0, 0, 0, 0.75); }
 
 .navbar-brand { margin: 0 25px; }
 
