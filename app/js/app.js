@@ -104,7 +104,18 @@ eval("console.log(\"Hello Gulper !\");\n\n//# sourceURL=webpack:///./dist/js/_sr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(\".jumbotron-custom\").css({\n  height: $(window).height() + \"px\"\n});\n$(window).on(\"resize\", function () {\n  $(\".jumbotron-custom\").css({\n    height: $(window).height() + \"px\"\n  });\n});\n\n//# sourceURL=webpack:///./dist/js/_src/general.js?");
+eval("$(window).on(\"load resize\", function () {\n  $(\".jumbotron-custom\").css({\n    height: $(window).height() + \"px\"\n  });\n});\n\n//# sourceURL=webpack:///./dist/js/_src/general.js?");
+
+/***/ }),
+
+/***/ "./dist/js/_src/navbar.js":
+/*!********************************!*\
+  !*** ./dist/js/_src/navbar.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(document).on('scroll', function () {\n  $(document).scrollTop() > 50 ? $(\"nav\").removeClass('navbar').addClass('navbar-scrolled') : $(\"nav\").removeClass('navbar-scrolled').addClass('navbar');\n});\n$('.nav-link').on('click', function (e) {\n  var target = $(this).attr('href');\n  $('html, body').animate({\n    scrollTop: $(target).offset().top - ($('nav').height() + parseInt($('nav').css(\"padding-top\")) + parseInt($('nav').css(\"padding-bottom\")))\n  }, 1000);\n  e.preventDefault();\n});\n\n//# sourceURL=webpack:///./dist/js/_src/navbar.js?");
 
 /***/ }),
 
@@ -115,7 +126,7 @@ eval("$(\".jumbotron-custom\").css({\n  height: $(window).height() + \"px\"\n});
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("window.$ = window.jQuery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! bootstrap/dist/js/bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\n__webpack_require__(/*! ./_src/_testing */ \"./dist/js/_src/_testing.js\");\n\n__webpack_require__(/*! ./_src/general */ \"./dist/js/_src/general.js\");\n\n//# sourceURL=webpack:///./dist/js/app.js?");
+eval("window.$ = window.jQuery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! bootstrap/dist/js/bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\n__webpack_require__(/*! ./_src/_testing */ \"./dist/js/_src/_testing.js\");\n\n__webpack_require__(/*! ./_src/navbar */ \"./dist/js/_src/navbar.js\");\n\n__webpack_require__(/*! ./_src/general */ \"./dist/js/_src/general.js\");\n\n//# sourceURL=webpack:///./dist/js/app.js?");
 
 /***/ }),
 
