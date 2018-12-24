@@ -4680,6 +4680,13 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 body { font-family: "Comic Sans MS", cursive, sans-serif; }
 
+.custom-section { min-height: 450px; padding: 80px 0px 100px; }
+
+.custom-section h2 { margin: 0px 0px 50px; }
+
+@media (max-width: 576px) { .custom-section { min-height: 300px; padding: 40px 20px 60px; }
+  .custom-section h2 { margin: 0px 0px 35px; } }
+
 .nav-item { margin: 0 25px; }
 
 .jumbotron-custom { position: relative; background: url("/img/hero.JPG") no-repeat bottom center/cover; }
