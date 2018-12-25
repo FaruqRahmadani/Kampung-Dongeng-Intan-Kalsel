@@ -101,10 +101,11 @@ eval("console.log(\"Hello Gulper !\");\n\n//# sourceURL=webpack:///./dist/js/_sr
 /*!*********************************!*\
   !*** ./dist/js/_src/general.js ***!
   \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("$(window).on(\"load resize\", function () {\n  $(\".jumbotron-custom\").css({\n    height: $(window).height() + \"px\"\n  });\n});\n\n//# sourceURL=webpack:///./dist/js/_src/general.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n\n$(window).on(\"load resize\", function () {\n  $(\".jumbotron-custom\").css({\n    height: $(window).height() + \"px\"\n  });\n}); // Tooltip\n\n$('.avatar').tooltip();\n\n//# sourceURL=webpack:///./dist/js/_src/general.js?");
 
 /***/ }),
 
