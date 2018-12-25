@@ -4713,3 +4713,11 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 .btn-primary { background: #1096fc; border: 0; }
 
 .btn-primary:hover { background: #0384e5; }
+
+.avatar { vertical-align: middle; width: 50px; height: 50px; border-radius: 50%; border: 3px solid #fff; margin: 0 0 0 20px; }
+
+@media (max-width: 600px) { .avatar { margin: 0 0 0 10px; } }
+
+.copyright { margin-top: 15px; }
+
+.copyright a { color: #fff; text-decoration: none; }
