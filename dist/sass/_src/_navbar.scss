@@ -1,5 +1,8 @@
 nav{
   padding: 5px 0 !important;
+  .navbar{
+    display: list-item;
+  }
   .nav-item {
     margin: 0 25px;
     transition: all .5s;
@@ -45,6 +48,7 @@ nav{
   width: 65px;
   background-color: #1096fc;
   color: white !important;
+  transition: all 1s;
 }
 
 .show{

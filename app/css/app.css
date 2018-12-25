@@ -4682,6 +4682,8 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 
 nav { padding: 5px 0 !important; }
 
+nav .navbar { display: list-item; }
+
 nav .nav-item { margin: 0 25px; transition: all .5s; }
 
 nav .nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
@@ -4694,7 +4696,7 @@ nav .nav-item .nav-link { color: white !important; font-weight: bold; text-trans
 
 .navbar-brand img { height: 50px; }
 
-.navbar-toggler { position: fixed; bottom: 25px; right: 25px; border-radius: 50%; border: none; height: 65px; width: 65px; background-color: #1096fc; color: white !important; }
+.navbar-toggler { position: fixed; bottom: 25px; right: 25px; border-radius: 50%; border: none; height: 65px; width: 65px; background-color: #1096fc; color: white !important; transition: all 1s; }
 
 .show { height: 100%; }
 
