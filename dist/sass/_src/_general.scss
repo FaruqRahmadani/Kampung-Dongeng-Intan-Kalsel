@@ -20,4 +20,16 @@ body {
       margin: 0px 0px 35px;
     }
   }
+
+  h2:after {
+    content: " ";
+    width: 150px;
+    height: 5px;
+    background: #000;
+    display: block;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
