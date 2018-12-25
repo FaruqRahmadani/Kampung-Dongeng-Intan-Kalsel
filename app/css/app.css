@@ -4713,3 +4713,5 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 .btn-primary { background: #1096fc; border: 0; }
 
 .btn-primary:hover { background: #0384e5; }
+
+.galeri .carousel-inner { width: 100%; max-height: 300px !important; }
