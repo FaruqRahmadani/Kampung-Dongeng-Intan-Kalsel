@@ -4713,3 +4713,7 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 .btn-primary { background: #1096fc; border: 0; }
 
 .btn-primary:hover { background: #0384e5; }
+
+.icon-kegiatan { vertical-align: middle; margin-bottom: 20px; max-width: 200px; max-height: 200px; }
+
+@media (max-width: 768px) { .icon-kegiatan { max-width: 130px !important; max-height: 130px !important; margin-top: 20px; margin-bottom: 10px; } }
