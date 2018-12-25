@@ -4713,3 +4713,9 @@ body { font-family: "Comic Sans MS", cursive, sans-serif; }
 .btn-primary { background: #1096fc; border: 0; }
 
 .btn-primary:hover { background: #0384e5; }
+
+.map { width: 100%; }
+
+@media (max-width: 576px) { .map-container { margin-bottom: 30px; } }
+
+#sec-kontak a { text-decoration: none; }
