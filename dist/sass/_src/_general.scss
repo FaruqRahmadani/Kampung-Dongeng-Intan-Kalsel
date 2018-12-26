@@ -1,7 +1,12 @@
-body {
-  font-family: "Comic Sans MS",
-    cursive,
+.font-minerva {
+  font-family: "minerva",
+    'roboto',
     sans-serif;
+}
+
+.font-general {
+  font-family: 'gotham rounded', 'roboto', sans-serif;
+  font-weight: 400;
 }
 
 .custom-section {
@@ -10,6 +15,10 @@ body {
 
   h2 {
     margin: 0px 0px 50px;
+    font-family: 'minerva',
+      'roboto',
+      sans-serif;
+    font-size: 3.56rem;
   }
 
   @media (max-width: 576px) {
@@ -21,15 +30,15 @@ body {
     }
   }
 
-  h2:after {
-    content: " ";
-    width: 150px;
-    height: 5px;
-    background: #000;
-    display: block;
-    margin-top: 10px;
-    border-radius: 3px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  // h2:after {
+  //   content: " ";
+  //   width: 150px;
+  //   height: 5px;
+  //   background: #000;
+  //   display: block;
+  //   margin-top: 10px;
+  //   border-radius: 3px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
 }
