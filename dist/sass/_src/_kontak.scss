@@ -1,0 +1,24 @@
+.map {
+  width: 100%;
+}
+
+.map-container {
+  @media (max-width: 576px) {
+    margin-bottom: 30px;
+  }
+}
+
+#sec-kontak {
+  a {
+    text-decoration: none;
+  }
+}
+
+.contact {
+  strong {
+    font-family: 'minerva',
+      'roboto',
+      sans-serif;
+    font-size: 25px;
+  }
+}

@@ -1,4 +1,13 @@
 @import '_src/_variable';
+@font-face {
+  font-family: 'gotham rounded';
+  src: url(../fonts/gotham-rounded-regular.woff);
+}
+
+@font-face {
+  font-family: 'minerva';
+  src: url(../fonts/minerva.ttf);
+}
 @import 'bootstrap/scss/bootstrap';
 @import 'font-awesome/scss/font-awesome';
 @import 'simple-line-icons/scss/simple-line-icons';
@@ -6,3 +15,7 @@
 @import '_src/_general';
 @import '_src/_navbar';
 @import '_src/_hero';
+@import '_src/_kegiatan';
+@import '_src/_galeri';
+@import '_src/_kontak';
+@import '_src/_footer';

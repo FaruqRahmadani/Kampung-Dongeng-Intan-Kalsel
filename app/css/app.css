@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face { font-family: 'gotham rounded'; src: url(../fonts/gotham-rounded-regular.woff); }
+
+@font-face { font-family: 'minerva'; src: url(../fonts/minerva.ttf); }
+
 /*! Bootstrap v4.1.3 (https://getbootstrap.com/) Copyright 2011-2018 The Bootstrap Authors Copyright 2011-2018 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
@@ -4678,7 +4682,16 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 .icon-social-steam:before { content: "\e620"; }
 
-body { font-family: "Comic Sans MS", cursive, sans-serif; }
+.font-minerva { font-family: "minerva", 'roboto', sans-serif; }
+
+.font-general { font-family: 'gotham rounded', 'roboto', sans-serif; font-weight: 400; }
+
+.custom-section { min-height: 450px; padding: 80px 0px 100px; }
+
+.custom-section h2 { margin: 0px 0px 50px; font-family: 'minerva', 'roboto', sans-serif; font-size: 3.56rem; }
+
+@media (max-width: 576px) { .custom-section { min-height: 300px; padding: 40px 20px 60px; }
+  .custom-section h2 { margin: 0px 0px 35px; } }
 
 nav { padding: 5px 0 !important; }
 
@@ -4716,3 +4729,27 @@ nav .nav-item .nav-link { color: white !important; font-weight: bold; text-trans
 .btn-primary { background: #1096fc; border: 0; }
 
 .btn-primary:hover { background: #0384e5; }
+
+.icon-kegiatan { vertical-align: middle; margin-bottom: 20px; max-width: 200px; max-height: 200px; }
+
+@media (max-width: 768px) { .icon-kegiatan { max-width: 130px !important; max-height: 130px !important; margin-top: 20px; margin-bottom: 10px; } }
+
+h4 { font-family: 'minerva', 'roboto', sans-serif; font-size: 35px; }
+
+.galeri .carousel-inner { width: 100%; max-height: 300px !important; }
+
+.map { width: 100%; }
+
+@media (max-width: 576px) { .map-container { margin-bottom: 30px; } }
+
+#sec-kontak a { text-decoration: none; }
+
+.contact strong { font-family: 'minerva', 'roboto', sans-serif; font-size: 25px; }
+
+.avatar { vertical-align: middle; width: 50px; height: 50px; border-radius: 50%; border: 3px solid #fff; margin: 0 0 0 20px; }
+
+@media (max-width: 600px) { .avatar { margin: 0 0 0 10px; } }
+
+.copyright { margin-top: 15px; }
+
+.copyright a { color: #fff; text-decoration: none; }
