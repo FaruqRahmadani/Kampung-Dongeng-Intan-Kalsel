@@ -31,3 +31,17 @@
     background: darken(#1096fc, 7%);
   }
 }
+
+.center-hero {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+  margin-top: 30px;
+
+  @media (max-width: $breakpoint-md) {
+    top: 10%;
+  }
+}
