@@ -4714,7 +4714,7 @@ nav .nav-item .nav-link { color: white !important; text-transform: uppercase; }
 .show { height: 100%; }
 
 @media (max-width: 991px) { .mobile-custom { background: rgba(0, 0, 0, 0.8); min-height: 100vh; overflow: auto; }
-  .mobile-custom ul { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; }
+  .mobile-custom ul { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; font-size: 2rem; }
   .mobile-custom .img-navbar { display: none; } }
 
 .jumbotron-custom { position: relative; background: url("/img/hero.JPG") no-repeat bottom center/cover; }
