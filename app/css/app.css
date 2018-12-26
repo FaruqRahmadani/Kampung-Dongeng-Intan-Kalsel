@@ -4693,17 +4693,17 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 @media (max-width: 576px) { .custom-section { min-height: 300px; padding: 40px 20px 60px; }
   .custom-section h2 { margin: 0px 0px 35px; } }
 
-nav { padding: 5px 0 !important; }
+nav { padding: 5px 0 !important; font-family: "minerva", 'roboto', sans-serif; }
 
 nav .navbar { display: list-item; }
 
 nav .nav-item { margin: 0 25px; transition: all .5s; }
 
-nav .nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
+nav .nav-item .nav-link { color: white !important; text-transform: uppercase; }
 
 @media (min-width: 992px) { .navbar { transition: all 1s; }
-  .navbar .nav-item { font-size: 20px; margin: 0 50px; transition: all .5s; }
-  .navbar-scrolled { transition: all 1s; background-color: rgba(0, 0, 0, 0.75); } }
+  .navbar .nav-item { font-size: 2rem; margin: 0 50px; transition: all .5s; }
+  .navbar-scrolled { transition: all 1s; font-size: 1.5rem; background-color: rgba(0, 0, 0, 0.75); } }
 
 .navbar-brand { margin: 0 25px; }
 
@@ -4714,7 +4714,7 @@ nav .nav-item .nav-link { color: white !important; font-weight: bold; text-trans
 .show { height: 100%; }
 
 @media (max-width: 991px) { .mobile-custom { background: rgba(0, 0, 0, 0.8); min-height: 100vh; overflow: auto; }
-  .mobile-custom ul { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; }
+  .mobile-custom ul { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; font-size: 2rem; }
   .mobile-custom .img-navbar { display: none; } }
 
 .jumbotron-custom { position: relative; background: url("/img/hero.JPG") no-repeat bottom center/cover; }
@@ -4729,6 +4729,10 @@ nav .nav-item .nav-link { color: white !important; font-weight: bold; text-trans
 .btn-primary { background: #1096fc; border: 0; }
 
 .btn-primary:hover { background: #0384e5; }
+
+.center-hero { position: relative; top: 15%; width: 100%; height: 100vh; text-align: center; margin-top: 30px; }
+
+@media (max-width: 768px) { .center-hero { top: 10%; } }
 
 .icon-kegiatan { vertical-align: middle; margin-bottom: 20px; max-width: 200px; max-height: 200px; }
 
