@@ -4693,19 +4693,29 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 @media (max-width: 576px) { .custom-section { min-height: 300px; padding: 40px 20px 60px; }
   .custom-section h2 { margin: 0px 0px 35px; } }
 
-.nav-item { margin: 0 25px; transition: all .5s; }
+nav { padding: 5px 0 !important; }
 
-.nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
+nav .navbar { display: list-item; }
 
-.navbar { transition: all 1s; }
+nav .nav-item { margin: 0 25px; transition: all .5s; }
 
-.navbar .nav-item { font-size: 20px; margin: 0 50px; transition: all .5s; }
+nav .nav-item .nav-link { color: white !important; font-weight: bold; text-transform: uppercase; }
 
-.navbar-scrolled { transition: all 1s; background-color: rgba(0, 0, 0, 0.75); }
+@media (min-width: 992px) { .navbar { transition: all 1s; }
+  .navbar .nav-item { font-size: 20px; margin: 0 50px; transition: all .5s; }
+  .navbar-scrolled { transition: all 1s; background-color: rgba(0, 0, 0, 0.75); } }
 
 .navbar-brand { margin: 0 25px; }
 
 .navbar-brand img { height: 50px; }
+
+.navbar-toggler { position: fixed; bottom: 25px; right: 25px; border-radius: 50%; border: none; height: 65px; width: 65px; background-color: #1096fc; color: white !important; transition: all 1s; }
+
+.show { height: 100%; }
+
+@media (max-width: 991px) { .mobile-custom { background: rgba(0, 0, 0, 0.8); min-height: 100vh; overflow: auto; }
+  .mobile-custom ul { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; }
+  .mobile-custom .img-navbar { display: none; } }
 
 .jumbotron-custom { position: relative; background: url("/img/hero.JPG") no-repeat bottom center/cover; }
 

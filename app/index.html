@@ -15,23 +15,28 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="fa fa-bars fa-2x"></span>
           </button>
-          <a class="navbar-brand d-block d-sm-none" href="#">
+          <!-- <a class="navbar-brand d-block d-md-none" href="#">
             <img src="img/logo.svg" height="50">
-          </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </a> -->
+          <div class="collapse navbar-collapse mobile-custom" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto align-items-center">
+              <li class="d-md-block d-lg-none">
+                <a class="nav-link navbar-brand" href="#sec-home">
+                  <img src="img/logo.svg">
+                </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#sec-profil">Profil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#sec-kegiatan">Kegiatan</a>
               </li>
-
-              <a class="nav-link navbar-brand" href="#sec-home">
-                <img src="img/logo.svg">
-              </a>
+              <li class="d-md-none d-lg-block img-navbar">
+                <a class="nav-link navbar-brand" href="#sec-home">
+                  <img src="img/logo.svg">
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#sec-galeri">Galeri</a>
