@@ -4742,7 +4742,9 @@ h4 { font-family: 'minerva', 'roboto', sans-serif; font-size: 35px; }
 
 .galeri .carousel { background: black; }
 
-.galeri .carousel .carousel-inner { width: 100%; min-height: 300px !important; max-height: 300px !important; }
+.galeri .carousel .carousel-inner { min-height: 300px !important; max-height: 300px !important; }
+
+.galeri .carousel .carousel-inner img { width: auto; min-height: 300px; margin: 0 auto; }
 
 .map { width: 100%; }
 
