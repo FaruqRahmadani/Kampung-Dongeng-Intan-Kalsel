@@ -4697,13 +4697,11 @@ nav { padding: 5px 0 !important; font-family: "minerva", 'roboto', sans-serif; }
 
 nav .navbar { display: list-item; }
 
-nav .nav-item { margin: 0 25px; transition: all .5s; }
+nav .nav-item { margin: 0 25px; transition: all .5s; font-size: 2rem; }
 
 nav .nav-item .nav-link { color: white !important; text-transform: uppercase; }
 
-@media (min-width: 992px) { .navbar { transition: all 1s; }
-  .navbar .nav-item { font-size: 2rem; margin: 0 50px; transition: all .5s; }
-  .navbar-scrolled { transition: all 1s; font-size: 1.5rem; background-color: rgba(0, 0, 0, 0.75); } }
+@media (min-width: 992px) { .navbar-scrolled { transition: all 1s; font-size: 1.5rem; background-color: rgba(0, 0, 0, 0.75); border-bottom: solid 3px #c7df89; } }
 
 .navbar-brand { margin: 0 25px; }
 
@@ -4711,9 +4709,7 @@ nav .nav-item .nav-link { color: white !important; text-transform: uppercase; }
 
 .navbar-toggler { position: fixed; bottom: 25px; right: 25px; border-radius: 50%; border: none; height: 65px; width: 65px; background-color: #1096fc; color: white !important; transition: all 1s; }
 
-.show { height: 100%; }
-
-@media (max-width: 991px) { .mobile-custom { background: rgba(0, 0, 0, 0.8); min-height: 100vh; overflow: auto; }
+@media (max-width: 991px) { .mobile-custom { background: rgba(0, 0, 0, 0.8); min-height: 100vh; overflow: auto; height: 100%; }
   .mobile-custom ul { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; font-size: 2rem; }
   .mobile-custom .img-navbar { display: none; } }
 
